@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap");
+body {
+  font-family: "Mulish", sans-serif;
+  overflow-x: hidden;
+}
+.after_::after {
+  content: "";
+  @apply absolute w-10 h-1 left-0 right-0 mx-auto bg-gray-400 bottom-0 rounded-full;
+}
+.after_s::after {
+  content: "";
+  @apply absolute w-10 h-1 left-0 right-0 mr-auto bg-gray-400 bottom-0 rounded-full;
+}
+.after_x::after {
+  content: "";
+  @apply absolute w-10 h-1 left-0 right-0 mx-auto bg-white bottom-0 rounded-full;
+}
+.service__ {
+  background-image: url("../assets/image/bg.png");
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.article__ {
+  background-image: url("../assets/image/element2.png");
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-position-x: 100%;
+}
+@media only screen and (max-width: 1024px) {
+  .after_s::after {
+    content: "";
+    @apply absolute w-10 h-1 left-0 right-0 mx-auto bg-gray-400 bottom-0 rounded-full;
+  }
+  .sidemenu__ {
+    @apply translate-x-full transition-transform duration-500;
+  }
+}

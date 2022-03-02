@@ -1,0 +1,14 @@
+{
+  "name": "trafalgar",
+  "version": "1.0.0",
+  "description": "trafalgar landing page",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "author": "farriqmfq",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}

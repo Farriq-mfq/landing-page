@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trafalgar landing page</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header
+      class="container mx-auto h-36 flex justify-between items-center md:px-16 px-6"
+    >
+      <div class="flex space-x-2 items-center">
+        <img src="./assets/image/Group 7.png " alt="Logo" />
+        <h1 class="text-2xl font-bold">Trafalgar</h1>
+      </div>
+      <button class="lg:hidden h-10 w-10 border rounded" id="hamburger__">
+        <i class="fa fa-bars"></i>
+      </button>
+      <div
+        class="lg:relative lg:w-auto lg:bg-none lg:shadow-none lg:py-0 fixed bg-white shadow-lg top-0 bottom-0 w-9/12 right-0 z-50 py-10 sidemenu__"
+        id="sideMenu"
+      >
+        <div class="lg:hidden flex items-center justify-around">
+          <h1 class="text-center font-bold text-4xl">Menu</h1>
+          <button class="h-10 w-10 border rounded" id="close__">
+            <i class="fa fa-close"></i>
+          </button>
+        </div>
+        <ul
+          class="items-center lg:space-x-8 flex flex-col lg:flex-row justify-center lg:space-y-0 space-y-6 py-10 text-center"
+        >
+          <li><a href="" class="text-lg font-bold">Home</a></li>
+          <li>
+            <a href="" class="text-lg text-gray-400 font-thin">Find a doctor</a>
+          </li>
+          <li><a href="" class="text-lg text-gray-400 font-thin">Apps</a></li>
+          <li>
+            <a href="" class="text-lg text-gray-400 font-thin">Testimonials</a>
+          </li>
+          <li>
+            <a href="" class="text-lg text-gray-400 font-thin">About us</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- end header -->
+    <section class="container mx-auto md:px-16 px-6">
+      <div class="flex items-center gap-x-2 flex-wrap md:flex-nowrap">
+        <div class="w-full md:w-6/12 px-2">
+          <h1 class="font-bold text-5xl">Virtual healthcare for you</h1>
+          <p class="font-thin my-10 text-xl text-gray-400 whitespace-wrap">
+            Trafalgar provides progressive, and affordable healthcare,
+            accessible on mobile and online for everyone
+          </p>
+          <button
+            class="bg-[#458FF6] w-[200px] h-[60px] rounded-full text-lg text-white font-bold"
+          >
+            Consult Today
+          </button>
+        </div>
+        <div class="w-6/12 px-2 hidden md:block">
+          <img src="./assets/image/illustration.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="container mx-auto md:px-16 mt-20 relative">
+      <div
+        class="w-full flex justify-center items-center text-center flex-col z-10"
+      >
+        <h2 class="text-3xl font-bold pb-7 relative after_">Our service</h2>
+        <p class="text-center w-9/12 text-gray-400 mt-5">
+          We provide to you the best choiches for you. Adjust it to your health
+          needs and make sure your undergo treatment with our highly qualified
+          doctors you can consult with us which type of service is suitable for
+          your health
+        </p>
+      </div>
+      <div class="w-full grid w-full lg:grid-cols-3 gap-7 mt-14 px-8 md:px-20">
+        <div class="bg-white px-5 py-10 shadow-xl rounded-lg grid gap-y-4">
+          <img src="./assets/image/Frame.png" alt="" />
+          <a href="#" class="text-2xl font-bold">Search doctor</a>
+          <p class="font-thin text-gray-400 text-base">
+            Choose your doctor from thousands of specialist, general, and
+            trusted hospitals
+          </p>
+        </div>
+        <div class="bg-white px-5 py-10 shadow-xl rounded-lg grid gap-y-4">
+          <img src="./assets/image/Frame-2.png" alt="" />
+          <a href="#" class="text-2xl font-bold">Online pharmacy</a>
+          <p class="font-thin text-gray-400 text-base">
+            Buy your medicines with our mobile application with a simple
+            delivery system
+          </p>
+        </div>
+        <div class="bg-white px-5 py-10 shadow-xl rounded-lg grid gap-y-4">
+          <img src="./assets/image/Frame-1.png" alt="" />
+          <a href="#" class="text-2xl font-bold">Consultation</a>
+          <p class="font-thin text-gray-400 text-base">
+            Free consultation with our trusted doctors and get the best
+            recomendations
+          </p>
+        </div>
+        <div class="bg-white px-5 py-10 shadow-xl rounded-lg grid gap-y-4">
+          <img src="./assets/image/Frame-3.png" alt="" />
+          <a href="#" class="text-2xl font-bold">Details info</a>
+          <p class="font-thin text-gray-400 text-base">
+            Free consultation with our trusted doctors and get the best
+            recomendations
+          </p>
+        </div>
+        <div class="bg-white px-5 py-10 shadow-xl rounded-lg grid gap-y-4">
+          <img src="./assets/image/Frame-4.png" alt="" />
+          <a href="#" class="text-2xl font-bold">Emergency care</a>
+          <p class="font-thin text-gray-400 text-base">
+            You can get 24/7 urgent care for yourself or your children and your
+            lovely family
+          </p>
+        </div>
+        <div class="bg-white px-5 py-10 shadow-xl rounded-lg grid gap-y-4">
+          <img src="./assets/image/Group.png" alt="" />
+          <a href="#" class="text-2xl font-bold">Tracking</a>
+          <p class="font-thin text-gray-400 text-base">
+            Track and save your medical history and health data
+          </p>
+        </div>
+      </div>
+      <div class="w-full flex justify-center mt-10">
+        <a
+          href="#"
+          class="flex justify-center items-center w-[200px] h-[60px] text-lg border border-[#458FF6] font-bold rounded-full text-[#458FF6]"
+        >
+          Learn more
+        </a>
+      </div>
+      <div
+        class="absolute service__ h-full w-full top-0 bottom-0 my-auto -left-24"
+      ></div>
+    </section>
+    <section class="container mx-auto md:px-16 mt-20">
+      <div class="flex px-2 gap-x-4 items-center justify-center">
+        <div class="w-6/12 hidden md:block">
+          <img src="./assets/image/trafalgar-illustration sec02 1.png" alt="" />
+        </div>
+        <div class="md:w-6/12 w-full">
+          <div class="w-full flex items-center md:items-start flex-col md:pl-5">
+            <h2
+              class="text-3xl font-bold pb-7 relative after_s text-center md:text-left"
+            >
+              Leading healthcare <br />providers
+            </h2>
+            <p class="w-9/12 text-gray-400 my-5 text-center md:text-left">
+              Trafalgar provides progressive, and affordable healthcare,
+              accessible on mobile and online for everyone. To us, it’s not just
+              work. We take pride in the solutions we deliver
+            </p>
+            <a
+              href="#"
+              class="flex justify-center items-center w-[200px] h-[60px] text-lg border border-[#458FF6] font-bold rounded-full text-[#458FF6]"
+            >
+              Learn more
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container mx-auto md:px-16 mt-20">
+      <div class="flex px-2 gap-x-4 items-center">
+        <div class="w-full md:w-6/12">
+          <div class="w-full flex flex-col items-center md:items-start">
+            <h2
+              class="text-3xl font-bold pb-7 relative after_s text-center md:text-left"
+            >
+              Download our <br />Mobile apps
+            </h2>
+            <p class="w-9/12 text-gray-400 my-7 text-center md:text-left">
+              Our dedicated patient engagement app and web portal allow you to
+              access information instantaneously (no tedeous form, long calls,
+              or administrative hassle) and securely
+            </p>
+            <a
+              href="#"
+              class="flex justify-center items-center w-[200px] h-[60px] text-lg border border-[#458FF6] font-bold rounded-full text-[#458FF6]"
+            >
+              Download
+            </a>
+          </div>
+        </div>
+        <div class="w-6/12 hidden md:block">
+          <img src="./assets/image/trafalgar-illustration sec03 1.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="container mx-auto md:px-16 mt-20 px-6">
+      <div
+        class="bg-gradient-to-t from-[#67C3F3] to-[#458FF6] h-10 rounded-xl md:h-96 h-auto shadow-xl md:pt-14 pt-5 pb-5 md:px-20 px-2"
+      >
+        <div
+          class="w-full flex justify-center items-center text-center flex-col z-10"
+        >
+          <h2 class="text-3xl font-bold pb-7 relative after_x text-white">
+            What our customer are saying
+          </h2>
+        </div>
+        <div class="flex flex-wrap lg:flex-row items-center mt-4">
+          <div
+            class="flex space-x-4 items-center lg:w-6/12 w-full justify-center lg:justify-start"
+          >
+            <div
+              class="relative md:h-24 md:w-24 lg:w-40 lg:h-40 h-20 w-20 rounded-full overflow-hidden border-4 border-white"
+            >
+              <img
+                src="./assets/image/image 1.png"
+                class="absolute left-0 top-0 w-full h-full"
+                alt="profile"
+              />
+            </div>
+            <div class="text-white grid gap-y-2">
+              <h2 class="font-bold">Edward Newgate</h2>
+              <p class="text-sm">Founder Circle</p>
+            </div>
+          </div>
+          <div
+            class="flex items-center lg:w-6/12 text-white lg:mt-0 mt-5 w-full justify-center lg:justify-start"
+          >
+            <p class="px-4 lg:px-2 leading-6">
+              “Our dedicated patient engagement app and web portal allow you to
+              access information instantaneously (no tedeous form, long calls,
+              or administrative hassle) and securely”
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container mx-auto md:px-16 mt-20 mb-20 relative">
+      <div
+        class="w-full flex justify-center items-center text-center flex-col z-10"
+      >
+        <h2 class="text-3xl font-bold pb-7 relative after_">
+          Check out our latest article
+        </h2>
+      </div>
+      <div class="grid lg:grid-cols-3 gap-4 px-5 md:px-20 mt-10">
+        <div class="bg-white shadow-xl rounded-xl overflow-hidden">
+          <div class="h-52 w-full relative">
+            <img
+              src="./assets/image/image 2.png"
+              class="w-full h-full absolute left-0 object-cover"
+              alt=""
+            />
+          </div>
+          <div class="py-4 px-6 grid gap-y-3">
+            <h1 class="text-lg font-bold">
+              Disease detection, check up in the laboratory
+            </h1>
+            <p class="text-sm text-gray-400">
+              In this case, the role of the health laboratory is very important
+              to do a disease detection...
+            </p>
+            <a href="#" class="text-sm text-[#4089ED]">Read more</a>
+          </div>
+        </div>
+        <div class="bg-white shadow-xl rounded-xl overflow-hidden">
+          <div class="h-52 w-full relative">
+            <img
+              src="./assets/image/image 2-1.png"
+              class="w-full h-full absolute left-0 object-cover"
+              alt=""
+            />
+          </div>
+          <div class="py-4 px-6 grid gap-y-3">
+            <h1 class="text-lg font-bold">
+              Disease detection, check up in the laboratory
+            </h1>
+            <p class="text-sm text-gray-400">
+              In this case, the role of the health laboratory is very important
+              to do a disease detection...
+            </p>
+            <a href="#" class="text-sm text-[#4089ED]">Read more</a>
+          </div>
+        </div>
+        <div class="bg-white shadow-xl rounded-xl overflow-hidden">
+          <div class="h-52 w-full relative">
+            <img
+              src="./assets/image/image 3.png"
+              class="w-full h-full absolute left-0 object-cover"
+              alt=""
+            />
+          </div>
+          <div class="py-4 px-6 grid gap-y-3">
+            <h1 class="text-lg font-bold">
+              Disease detection, check up in the laboratory
+            </h1>
+            <p class="text-sm text-gray-400">
+              In this case, the role of the health laboratory is very important
+              to do a disease detection...
+            </p>
+            <a href="#" class="text-sm text-[#4089ED]">Read more</a>
+          </div>
+        </div>
+      </div>
+      <div class="w-full flex justify-center mt-10">
+        <a
+          href="#"
+          class="flex justify-center items-center w-[200px] h-[60px] text-lg border border-[#458FF6] font-bold rounded-full text-[#458FF6]"
+        >
+          View more
+        </a>
+      </div>
+      <div
+        class="absolute article__ h-full w-full top-0 bottom-0 my-auto"
+      ></div>
+    </section>
+    <footer
+      class="absolute bg-gradient-to-t from-[#67C3F3] to-[#458FF6] w-full md:h-96 left-0 right-0 bottom-auto top-auto grid items-center md:px-24 p-4"
+    >
+      <div
+        class="w-full flex flex-wrap md:flex-nowrap gap-4 h-full items-center"
+      >
+        <div class="text-white md:w-4/12 w-full">
+          <div class="flex space-x-2 items-center">
+            <img src="./assets/image/Groups.png " alt="Logo" />
+            <h1 class="text-2xl font-bold">Trafalgar</h1>
+          </div>
+          <p class="mt-4">
+            Trafalgar provides progressive, and affordable healthcare,
+            accessible on mobile and online for everyone
+          </p>
+          <p class="mt-8">&copy; Trafalgar PTY LTD 2020. All rights reserved</p>
+        </div>
+        <div
+          class="text-white md:w-8/12 flex flex-wrap md:flex-nowrap gap-6 md:gap-4 md:px-4"
+        >
+          <div class="md:w-4/12 w-full">
+            <h3 class="text-sm font-bold mb-3">Company</h3>
+            <ul class="flex flex-col space-y-3">
+              <li><a href="#" class="text-sm">About</a></li>
+              <li><a href="#" class="text-sm">Testimonials</a></li>
+              <li><a href="#" class="text-sm">Find a doctor</a></li>
+              <li><a href="#" class="text-sm">Apps</a></li>
+            </ul>
+          </div>
+          <div class="md:w-4/12 w-full">
+            <h3 class="text-sm font-bold mb-3">Region</h3>
+            <ul class="flex flex-col space-y-3">
+              <li><a href="#" class="text-sm">Indonesia</a></li>
+              <li><a href="#" class="text-sm">Singapure</a></li>
+              <li><a href="#" class="text-sm">Hongkong</a></li>
+              <li><a href="#" class="text-sm">Canada</a></li>
+            </ul>
+          </div>
+          <div class="md:w-4/12 w-full">
+            <h3 class="text-sm font-bold mb-3">Help</h3>
+            <ul class="flex flex-col space-y-3">
+              <li><a href="#" class="text-sm">Help center</a></li>
+              <li><a href="#" class="text-sm">Contact support</a></li>
+              <li><a href="#" class="text-sm">Instructions</a></li>
+              <li><a href="#" class="text-sm">How it works</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./src/script.js"></script>
+  </body>
+</html>
